@@ -1,0 +1,19 @@
+
+
+.button1 {
+    color: #ffffff;
+    background-color: #29be56;
+    border: none;
+    border-radius: 0.2rem;
+    width: 5rem;
+    height: 1.5rem;
+}
+
+.button2 {
+    color: #ffffff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 0.2rem;
+    width: 5rem;
+    height: 1.5rem;
+}
