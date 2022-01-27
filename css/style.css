@@ -1,4 +1,6 @@
 @import url(./var.css);
+@import url(./logo.css);
+@import url(./anchor.css);
 @import url(./menu.css);
 @import url(./home.css);
     
@@ -11,10 +13,13 @@
     transition: 0.4s;
 }
 body {
+    color: var(--font-color);
     width: 100vw;
     height: 100vh;
     background-image: url(../img/bg_001.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+
   

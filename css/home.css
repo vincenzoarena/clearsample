@@ -1,4 +1,4 @@
-
+section
 
 .button1 {
     color: #ffffff;
@@ -16,4 +16,16 @@
     border-radius: 0.2rem;
     width: 5rem;
     height: 1.5rem;
+}
+
+.sphone1 img {
+    position: absolute;
+    bottom: 10rem;
+    left: 40rem;
+}
+
+.sphone2 img {
+    position: absolute;
+    bottom: -10rem;
+    left: 40rem;
 }
