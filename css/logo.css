@@ -1,6 +1,7 @@
-header nav ul li a img {
+header a img {
     width: 15vw;
     height: 12vh;
     position: relative;
+    /* left: 5vw; */
     
 }

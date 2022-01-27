@@ -3,20 +3,19 @@ header {
     justify-content: flex-end;
     align-items: center;
     height: 5vh;
+    width: 60vw;
     z-index: 1;
-    padding: 10vh;
-}
-header nav {
+    background-color: var(--company-them-bg-color);
+  }
+  header nav {
     flex-grow: 2;
-}
-header nav ul {
+  }
+  header nav ul {
     display: flex;
     justify-content: space-around;
-}
-header nav ul li {
+  }
+  header nav ul li {
     display: inline;
     list-style: none;
-    justify-self: center;
-    align-self: center;
-}
+  }
 

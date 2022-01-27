@@ -1,12 +1,30 @@
-section
+.letters {
+    width: 30vw;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+    border: 3px burlywood solid;
+}
 
+h1 {
+    font-size: 5vh;
+    padding-bottom: 3vh;
+}
+
+p {
+    font-size: 3vh;
+}
 .button1 {
     color: #ffffff;
     background-color: #29be56;
     border: none;
-    border-radius: 0.2rem;
-    width: 5rem;
-    height: 1.5rem;
+    border-radius: 2%;
+    width: 5vw;
+    height: 2.5vh;
 }
 
 .button2 {
@@ -19,12 +37,16 @@ section
 }
 
 .sphone1 img {
+    width: 5rem;
+    height: 10rem;
     position: absolute;
     bottom: 10rem;
     left: 40rem;
 }
 
 .sphone2 img {
+    width: 5rem;
+    height: 10rem;
     position: absolute;
     bottom: -10rem;
     left: 40rem;
