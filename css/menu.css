@@ -1,21 +1,29 @@
 header {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: space-evenly; */
     align-items: center;
-    height: 5vh;
-    width: 60vw;
-    z-index: 1;
-    background-color: var(--company-them-bg-color);
+    height: 15vh;
+    width: 100vw;
+    /* margin-top: 5rem; */
+    border: 2px red dashed;
+    /* z-index: 1; */
   }
-  header nav {
-    flex-grow: 2;
+  nav div{
+    display: flex;
+    justify-content: space-evenly;
   }
   header nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-left: 7rem;
   }
-  header nav ul li {
-    display: inline;
+  li {
+    display: flex;
+    align-items: center;
     list-style: none;
+    margin-left: 1rem;
   }
-
+ nav div a {
+   position: relative;
+   left: 25rem;
+ }

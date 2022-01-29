@@ -14,9 +14,10 @@
 }
 body {
     color: var(--font-color);
+    font-family: var(--font-app);
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/bg_001.jpg);
+    background-image: var(--bg-img);
     background-repeat: no-repeat;
     background-size: 100%;
 }

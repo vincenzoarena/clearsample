@@ -1,10 +1,15 @@
+main {
+    display: flex;
+    border: violet 2px dashed;
+}
+
 .letters {
     width: 30vw;
     display: flex;
     align-self: center;
     justify-content: center;
-    flex-direction: column;
-    position: relative;
+    /* flex-direction: column; */
+    /* position: relative; */
     top: 20vh;
     left: 20vw;
     border: 3px burlywood solid;
@@ -37,16 +42,16 @@ p {
 }
 
 .sphone1 img {
-    width: 5rem;
-    height: 10rem;
+    width: 20rem;
+    height: 40rem;
     position: absolute;
     bottom: 10rem;
     left: 40rem;
 }
 
 .sphone2 img {
-    width: 5rem;
-    height: 10rem;
+    width: 20rem;
+    height: 40rem;
     position: absolute;
     bottom: -10rem;
     left: 40rem;
