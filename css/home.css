@@ -1,5 +1,7 @@
-main {
+/* main {
     display: flex;
+    height: 80vh;
+    justify-content: center;
     border: violet 2px dashed;
 }
 
@@ -8,8 +10,8 @@ main {
     display: flex;
     align-self: center;
     justify-content: center;
-    /* flex-direction: column; */
-    /* position: relative; */
+    flex-direction: column;
+    position: relative;
     top: 20vh;
     left: 20vw;
     border: 3px burlywood solid;
@@ -41,10 +43,14 @@ p {
     height: 1.5rem;
 }
 
+.phones {
+    border: green 2px solid;
+    background-color: royalblue;
+}
 .sphone1 img {
     width: 20rem;
     height: 40rem;
-    position: absolute;
+    position: relative;
     bottom: 10rem;
     left: 40rem;
 }
@@ -52,7 +58,42 @@ p {
 .sphone2 img {
     width: 20rem;
     height: 40rem;
-    position: absolute;
-    bottom: -10rem;
-    left: 40rem;
+    position: relative;
+    bottom: 9rem;
+    left: 31rem;
+} */
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: darkred 2px dashed;
+    top: 50rem;
 }
+
+.letters {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellow;
+    width: 25vw;
+    height: 25vh;
+}
+
+h1 {
+    font-size: 5vh;
+    /* padding-bottom: 3vh; */
+}
+
+p {
+    font-size: 3vh;
+}
+.phones {
+    display: flex;
+    width: 20rem;
+    height: 40rem;
+    justify-content: center;
+    /* position: relative;  */
+}
+
+.push 

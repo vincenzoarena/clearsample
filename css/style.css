@@ -17,6 +17,9 @@ body {
     font-family: var(--font-app);
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: var(--bg-img);
     background-repeat: no-repeat;
     background-size: 100%;
