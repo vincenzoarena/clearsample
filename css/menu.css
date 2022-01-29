@@ -5,8 +5,8 @@ header {
     height: 15vh;
     width: 100vw;
     /* margin-top: 5rem; */
-    /* border: 2px red dashed; */
     /* z-index: 1; */
+    font-weight: bolder;
   }
   nav div{
     display: flex;

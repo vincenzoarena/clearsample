@@ -68,14 +68,12 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* border: darkred 2px dashed; */
     top: 10rem;
 }
 
 .letters {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid yellow; */
     width: 35vw;
     height: 15vh;
     margin-left: 15rem;
